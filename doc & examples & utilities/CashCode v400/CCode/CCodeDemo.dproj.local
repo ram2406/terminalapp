@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.12.04 17:35:23.781.PAS,C:\Documents and Settings\admin\Рабочий стол\CCode\ABOUT.PAS=</Transaction>
+    <Transaction>2010.12.04 17:35:23.781.dfm,C:\Documents and Settings\admin\Рабочий стол\CCode\ABOUT.dfm=</Transaction>
+    <Transaction>2010.12.04 17:35:55.375.dproj,C:\Documents and Settings\admin\Рабочий стол\CCode\SDIAPP.dproj=C:\Documents and Settings\admin\Рабочий стол\CCode\CCodeDemo.dproj</Transaction>
+    <Transaction>2010.12.04 17:36:15.859.PAS,C:\Documents and Settings\admin\Рабочий стол\CCode\SDIMAIN.PAS=C:\Documents and Settings\admin\Рабочий стол\CCode\FMain.PAS</Transaction>
+    <Transaction>2010.12.04 17:36:15.859.dfm,C:\Documents and Settings\admin\Рабочий стол\CCode\SDIMAIN.dfm=C:\Documents and Settings\admin\Рабочий стол\CCode\FMain.dfm</Transaction>
+    <Transaction>2010.12.04 17:36:32.062.pas,C:\Documents and Settings\admin\Рабочий стол\CCode\FMain.pas=C:\Documents and Settings\admin\Рабочий стол\CCode\UMain.pas</Transaction>
+    <Transaction>2010.12.04 17:36:32.062.dfm,C:\Documents and Settings\admin\Рабочий стол\CCode\FMain.dfm=C:\Documents and Settings\admin\Рабочий стол\CCode\UMain.dfm</Transaction>
+    <Transaction>2010.12.04 17:37:39.453.pas,C:\Documents and Settings\admin\Рабочий стол\CCode\Unit1.pas=C:\Documents and Settings\admin\Рабочий стол\CCode\UCashCode.pas</Transaction>
+  </Transactions>
+</BorlandProject>
