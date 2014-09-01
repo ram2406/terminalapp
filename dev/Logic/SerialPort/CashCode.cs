@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Logic.SerialPort
 {
-    public class Cash
+    public class CashCode
     {
+
     }
 }
