@@ -1,0 +1,2 @@
+M:\dev\OriflameApp\OriflameApp\bin\Debug\OriflameApp.exe.config
+M:\dev\terminalApp\dev\OriflameApp\bin\Debug\OriflameApp.exe.config
