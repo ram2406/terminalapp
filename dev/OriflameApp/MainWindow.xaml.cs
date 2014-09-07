@@ -65,52 +65,10 @@ namespace OriflameApp
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            var myExplorer = new PosExplorer();
-            var devices = myExplorer.GetDevices("PosPrinter");
-            var device = myExplorer.GetDevice("PosPrinter", "CT-S2000_1"); 
-            var inst = myExplorer.CreateInstance(device);
-            PosPrinter printer = (PosPrinter)inst;
-            printer.OutputCompleteEvent += printer_OutputCompleteEvent;
-            printer.Open();
-            printer.Claim(1000);
-            printer.DeviceEnabled = true;
-            
-            
-            
-            printer.PrintNormal(PrinterStation.Receipt, "test");
-            //printer.EndInsertion();
-            printer.DirectIO(
-            printer.TransactionPrint(PrinterStation.Receipt, PrinterTransactionControl.Normal);
-            printer.DeviceEnabled = false;
-            printer.Release();
-            printer.Close();
-            //PosPrinter printer = (Pos) inst;
-            //printer.PrintNormal(PrinterStation.None, "test");
-            //DeviceInfo device = myExplorer.GetDevice("Msr", "MGTK_MSR");
-           /*CP.CTCashDrawer2 drawer = (CP.CTCashDrawer2)inst;
-            drawer.Claim(1000);
-            drawer.Open();
-            */
-            /*
-            CP.CTCashDrawer2 cc = new CP.CTCashDrawer2();
-            cc.Open();
-            
-            try
-            {
-                var printer = new CP.CTS2000POSPrinter();
-                printer.Open();
-                printer.Claim(1000);
-                printer.DeviceEnabled = true;
-                printer.PrintNormal(Microsoft.PointOfService.PrinterStation.None, "test");    
-            }
-            catch (Exception ex)
-            {
-                Debug.WriteLine(ex.Message);
-            }
-            */
-           
-         
-            
+            Citizen c = new Citizen();
+            c.StringToPrint = "Origlame\n" + DateTime.Now + "\n\nСпасибо за покупку";
+            c.Font = new System.Drawing.Font("Arial", 12);
+            c.Print();
         }
 
         void printer_OutputCompleteEvent(object sender, OutputCompleteEventArgs e)
