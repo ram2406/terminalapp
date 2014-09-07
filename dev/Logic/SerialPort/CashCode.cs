@@ -4,10 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Logic.SerialPort
 {
-    public class CashCode
+    public abstract class ACashCode
     {
+  
 
     }
+   
 }
