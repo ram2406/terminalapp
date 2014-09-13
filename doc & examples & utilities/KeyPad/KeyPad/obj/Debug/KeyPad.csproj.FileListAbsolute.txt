@@ -1,0 +1,15 @@
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\bin\Debug\KeyPad.dll.config
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\bin\Debug\KeyPad.dll
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\bin\Debug\KeyPad.pdb
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\Keypad.baml
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\Keypad.g.cs
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\VirtualKeyboard.g.cs
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\GeneratedInternalTypeHelper.g.cs
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\KeyPad_MarkupCompile.cache
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\KeyPad_MarkupCompile.lref
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\VirtualKeyboard.baml
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\KeyPad.g.resources
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\KeyPad.Properties.Resources.resources
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\KeyPad.csproj.GenerateResource.Cache
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\KeyPad.dll
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\KeyPad.pdb

@@ -1,0 +1,95 @@
+c:\users\michele\documents\visual studio 2010\Projects\KeyPad\KeyPad\bin\Debug\KeyPad.exe
+c:\users\michele\documents\visual studio 2010\Projects\KeyPad\KeyPad\bin\Debug\KeyPad.pdb
+c:\users\michele\documents\visual studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\michele\documents\visual studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\App.g.cs
+c:\users\michele\documents\visual studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\KeyPad_MarkupCompile.cache
+c:\users\michele\documents\visual studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\KeyPad.g.resources
+c:\users\michele\documents\visual studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\KeyPad.Properties.Resources.resources
+c:\users\michele\documents\visual studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\michele\documents\visual studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\michele\documents\visual studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\KeyPad.exe
+c:\users\michele\documents\visual studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\KeyPad.pdb
+C:\Users\Michele\documents\visual studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\Window1.baml
+C:\Users\Michele\documents\visual studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\Window1.g.cs
+C:\Users\Michele\documents\visual studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\Keypad.baml
+C:\Users\Michele\documents\visual studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\Keypad.g.cs
+C:\Users\Michele\documents\visual studio 2010\Projects\KeyPad\KeyPad\bin\Debug\KeyPad.exe.config
+C:\Users\mesta\Desktop\KeyPad\KeyPad\obj\x86\Debug\KeyPad.pdb
+C:\Users\mesta\Desktop\KeyPad\KeyPad\bin\Debug\KeyPad.pdb
+C:\Users\mesta\Desktop\KeyPad\KeyPad\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mesta\Desktop\KeyPad\KeyPad\obj\x86\Debug\Keypad.baml
+C:\Users\mesta\Desktop\KeyPad\KeyPad\obj\x86\Debug\Keypad.g.cs
+C:\Users\mesta\Desktop\KeyPad\KeyPad\obj\x86\Debug\KeyPad_MarkupCompile.cache
+C:\Users\mesta\Desktop\KeyPad\KeyPad\obj\x86\Debug\KeyPad.g.resources
+C:\Users\mesta\Desktop\KeyPad\KeyPad\obj\x86\Debug\KeyPad.Properties.Resources.resources
+C:\Users\mesta\Desktop\KeyPad\KeyPad\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\mesta\Desktop\KeyPad\KeyPad\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\mesta\Desktop\KeyPad\KeyPad\bin\Debug\KeyPad.dll.config
+C:\Users\mesta\Desktop\KeyPad\KeyPad\bin\Debug\KeyPad.dll
+C:\Users\mesta\Desktop\KeyPad\KeyPad\obj\x86\Debug\KeyPad.dll
+C:\Users\Michele\Documents\Visual Studio 2010\Projects\Baldan\KeyPad\bin\Debug\KeyPad.dll.config
+C:\Users\Michele\Documents\Visual Studio 2010\Projects\Baldan\KeyPad\bin\Debug\KeyPad.dll
+C:\Users\Michele\Documents\Visual Studio 2010\Projects\Baldan\KeyPad\bin\Debug\KeyPad.pdb
+C:\Users\Michele\Documents\Visual Studio 2010\Projects\Baldan\KeyPad\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Michele\Documents\Visual Studio 2010\Projects\Baldan\KeyPad\obj\x86\Debug\Keypad.baml
+C:\Users\Michele\Documents\Visual Studio 2010\Projects\Baldan\KeyPad\obj\x86\Debug\Keypad.g.cs
+C:\Users\Michele\Documents\Visual Studio 2010\Projects\Baldan\KeyPad\obj\x86\Debug\KeyPad_MarkupCompile.cache
+C:\Users\Michele\Documents\Visual Studio 2010\Projects\Baldan\KeyPad\obj\x86\Debug\KeyPad.g.resources
+C:\Users\Michele\Documents\Visual Studio 2010\Projects\Baldan\KeyPad\obj\x86\Debug\KeyPad.Properties.Resources.resources
+C:\Users\Michele\Documents\Visual Studio 2010\Projects\Baldan\KeyPad\obj\x86\Debug\KeyPad.dll
+C:\Users\Michele\Documents\Visual Studio 2010\Projects\Baldan\KeyPad\obj\x86\Debug\KeyPad.pdb
+C:\Users\Michele\documents\visual studio 2010\Projects\Baldan\KeyPad\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Michele\documents\visual studio 2010\Projects\Baldan\KeyPad\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Michele\documents\visual studio 2010\Projects\Baldan\KeyPad\obj\x86\Debug\VirtualKeyboard.baml
+C:\Users\Michele\documents\visual studio 2010\Projects\Baldan\KeyPad\obj\x86\Debug\VirtualKeyboard.g.cs
+C:\Users\Michele\documents\visual studio 2010\Projects\Baldan\KeyPad\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Michele\documents\visual studio 2010\Projects\Baldan\KeyPad\obj\x86\Debug\KeyPad_MarkupCompile.lref
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\TestKeyboard\KeyPad\bin\Debug\KeyPad.dll.config
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\TestKeyboard\KeyPad\bin\Debug\KeyPad.dll
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\TestKeyboard\KeyPad\bin\Debug\KeyPad.pdb
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\TestKeyboard\KeyPad\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\TestKeyboard\KeyPad\obj\x86\Debug\Keypad.baml
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\TestKeyboard\KeyPad\obj\x86\Debug\Keypad.g.cs
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\TestKeyboard\KeyPad\obj\x86\Debug\VirtualKeyboard.g.cs
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\TestKeyboard\KeyPad\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\TestKeyboard\KeyPad\obj\x86\Debug\KeyPad_MarkupCompile.cache
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\TestKeyboard\KeyPad\obj\x86\Debug\KeyPad_MarkupCompile.lref
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\TestKeyboard\KeyPad\obj\x86\Debug\VirtualKeyboard.baml
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\TestKeyboard\KeyPad\obj\x86\Debug\KeyPad.g.resources
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\TestKeyboard\KeyPad\obj\x86\Debug\KeyPad.Properties.Resources.resources
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\TestKeyboard\KeyPad\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\TestKeyboard\KeyPad\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\TestKeyboard\KeyPad\obj\x86\Debug\KeyPad.dll
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\TestKeyboard\KeyPad\obj\x86\Debug\KeyPad.pdb
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\KeyPad\bin\Debug\KeyPad.dll.config
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\KeyPad\bin\Debug\KeyPad.dll
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\KeyPad\bin\Debug\KeyPad.pdb
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\Keypad.baml
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\Keypad.g.cs
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\VirtualKeyboard.g.cs
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\KeyPad_MarkupCompile.cache
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\KeyPad_MarkupCompile.lref
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\VirtualKeyboard.baml
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\KeyPad.g.resources
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\KeyPad.Properties.Resources.resources
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\KeyPad.dll
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\KeyPad\obj\x86\Debug\KeyPad.pdb
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\bin\Debug\KeyPad.dll.config
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\bin\Debug\KeyPad.dll
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\bin\Debug\KeyPad.pdb
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\x86\Debug\Keypad.baml
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\x86\Debug\Keypad.g.cs
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\x86\Debug\VirtualKeyboard.g.cs
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\x86\Debug\KeyPad_MarkupCompile.cache
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\x86\Debug\KeyPad_MarkupCompile.lref
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\x86\Debug\VirtualKeyboard.baml
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\x86\Debug\KeyPad.g.resources
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\x86\Debug\KeyPad.Properties.Resources.resources
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\x86\Debug\KeyPad.csproj.GenerateResource.Cache
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\x86\Debug\KeyPad.dll
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\x86\Debug\KeyPad.pdb

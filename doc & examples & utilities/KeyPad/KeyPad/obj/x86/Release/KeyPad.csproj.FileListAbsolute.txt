@@ -1,0 +1,13 @@
+C:\Users\Michele\documents\visual studio 2010\Projects\Baldan\KeyPad\bin\Release\KeyPad.dll.config
+C:\Users\Michele\documents\visual studio 2010\Projects\Baldan\KeyPad\bin\Release\KeyPad.dll
+C:\Users\Michele\documents\visual studio 2010\Projects\Baldan\KeyPad\bin\Release\KeyPad.pdb
+C:\Users\Michele\documents\visual studio 2010\Projects\Baldan\KeyPad\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Michele\documents\visual studio 2010\Projects\Baldan\KeyPad\obj\x86\Release\Keypad.baml
+C:\Users\Michele\documents\visual studio 2010\Projects\Baldan\KeyPad\obj\x86\Release\Keypad.g.cs
+C:\Users\Michele\documents\visual studio 2010\Projects\Baldan\KeyPad\obj\x86\Release\KeyPad_MarkupCompile.cache
+C:\Users\Michele\documents\visual studio 2010\Projects\Baldan\KeyPad\obj\x86\Release\KeyPad.g.resources
+C:\Users\Michele\documents\visual studio 2010\Projects\Baldan\KeyPad\obj\x86\Release\KeyPad.Properties.Resources.resources
+C:\Users\Michele\documents\visual studio 2010\Projects\Baldan\KeyPad\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Michele\documents\visual studio 2010\Projects\Baldan\KeyPad\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Michele\documents\visual studio 2010\Projects\Baldan\KeyPad\obj\x86\Release\KeyPad.dll
+C:\Users\Michele\documents\visual studio 2010\Projects\Baldan\KeyPad\obj\x86\Release\KeyPad.pdb

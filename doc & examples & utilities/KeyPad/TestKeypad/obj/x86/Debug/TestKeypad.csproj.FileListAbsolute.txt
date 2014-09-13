@@ -1,0 +1,44 @@
+C:\Users\mesta\Desktop\KeyPad\TestKeypad\bin\Debug\TestKeypad.exe
+C:\Users\mesta\Desktop\KeyPad\TestKeypad\bin\Debug\TestKeypad.pdb
+C:\Users\mesta\Desktop\KeyPad\TestKeypad\bin\Debug\KeyPad.pdb
+C:\Users\mesta\Desktop\KeyPad\TestKeypad\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mesta\Desktop\KeyPad\TestKeypad\obj\x86\Debug\MainWindow.baml
+C:\Users\mesta\Desktop\KeyPad\TestKeypad\obj\x86\Debug\MainWindow.g.cs
+C:\Users\mesta\Desktop\KeyPad\TestKeypad\obj\x86\Debug\App.g.cs
+C:\Users\mesta\Desktop\KeyPad\TestKeypad\obj\x86\Debug\TestKeypad_MarkupCompile.cache
+C:\Users\mesta\Desktop\KeyPad\TestKeypad\obj\x86\Debug\TestKeypad.g.resources
+C:\Users\mesta\Desktop\KeyPad\TestKeypad\obj\x86\Debug\TestKeypad.Properties.Resources.resources
+C:\Users\mesta\Desktop\KeyPad\TestKeypad\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\mesta\Desktop\KeyPad\TestKeypad\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\mesta\Desktop\KeyPad\TestKeypad\obj\x86\Debug\TestKeypad.exe
+C:\Users\mesta\Desktop\KeyPad\TestKeypad\obj\x86\Debug\TestKeypad.pdb
+C:\Users\mesta\Desktop\KeyPad\TestKeypad\bin\Debug\KeyPad.dll
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\TestKeypad\obj\x86\Debug\TestKeypad.exe
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\TestKeypad\obj\x86\Debug\TestKeypad.pdb
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\TestKeypad\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\TestKeypad\obj\x86\Debug\MainWindow.baml
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\TestKeypad\obj\x86\Debug\MainWindow.g.cs
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\TestKeypad\obj\x86\Debug\App.g.cs
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\TestKeypad\obj\x86\Debug\TestKeypad_MarkupCompile.cache
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\TestKeypad\obj\x86\Debug\TestKeypad.g.resources
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\TestKeypad\obj\x86\Debug\TestKeypad.Properties.Resources.resources
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\TestKeypad\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\TestKeypad\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\TestKeypad\bin\Debug\TestKeypad.exe
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\TestKeypad\bin\Debug\TestKeypad.pdb
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\TestKeypad\bin\Debug\KeyPad.dll
+C:\Users\mesta\Documents\Visual Studio 2010\Projects\KeyPad\TestKeypad\bin\Debug\KeyPad.pdb
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\TestKeypad\obj\x86\Debug\TestKeypad.exe
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\TestKeypad\obj\x86\Debug\TestKeypad.pdb
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\TestKeypad\bin\Debug\TestKeypad.exe
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\TestKeypad\bin\Debug\TestKeypad.pdb
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\TestKeypad\bin\Debug\KeyPad.dll
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\TestKeypad\bin\Debug\KeyPad.pdb
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\TestKeypad\obj\x86\Debug\TestKeypad.csprojResolveAssemblyReference.cache
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\TestKeypad\obj\x86\Debug\MainWindow.baml
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\TestKeypad\obj\x86\Debug\MainWindow.g.cs
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\TestKeypad\obj\x86\Debug\App.g.cs
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\TestKeypad\obj\x86\Debug\TestKeypad_MarkupCompile.cache
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\TestKeypad\obj\x86\Debug\TestKeypad.g.resources
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\TestKeypad\obj\x86\Debug\TestKeypad.Properties.Resources.resources
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\TestKeypad\obj\x86\Debug\TestKeypad.csproj.GenerateResource.Cache
