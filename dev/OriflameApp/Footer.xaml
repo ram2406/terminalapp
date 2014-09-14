@@ -11,8 +11,8 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Button Content="Назад"   Grid.Column="0" HorizontalAlignment="Center" Click="Button_Click" Tag="Previos"   Width="160"/>
+        <Button Content="Назад"   Grid.Column="0" HorizontalAlignment="Left"   Margin="36,0,0,0" Click="Button_Click" Tag="Previos"   Width="160" Visibility="Hidden" Name="Prev"/>
         <Button Content="Меню"    Grid.Column="1" HorizontalAlignment="Center" Click="Button_Click" Tag="Menu"      Width="160"/>
-        <Button Content="Вперед"  Grid.Column="2" HorizontalAlignment="Center" Click="Button_Click" Tag="Next"      Width="160"/>
+        <Button Content="Вперед"  Grid.Column="2" HorizontalAlignment="Right"  Margin="0,0,36,0" Click="Button_Click" Tag="Next"      Width="160"  Visibility="Hidden" Name="Next"/>
     </Grid>
 </UserControl>

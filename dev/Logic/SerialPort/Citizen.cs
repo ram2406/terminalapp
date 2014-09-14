@@ -19,6 +19,7 @@ namespace Logic.SerialPort
                 new PrintPageEventHandler(printDocument1_PrintPage);
         }
         public Font Font { get; set; }
+        public Bitmap Bitmap { get; set; }
         private PrintDocument printDocument1 = new PrintDocument();
         public string StringToPrint { get; set; }
         private void ReadFile()
@@ -37,6 +38,8 @@ namespace Logic.SerialPort
 
         private void printDocument1_PrintPage(object sender, PrintPageEventArgs e)
         {
+            //e.Graphics.DrawImage(Bitmap, new Point());
+            //return;
             int charactersOnPage = 0;
             int linesPerPage = 0;
             SizeF bound = new SizeF(300, 300);

@@ -13,3 +13,4 @@ M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\KeyPad.Pro
 M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\KeyPad.csproj.GenerateResource.Cache
 M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\KeyPad.dll
 M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\KeyPad.pdb
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\KeyPad.csprojResolveAssemblyReference.cache

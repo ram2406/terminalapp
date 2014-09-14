@@ -34,8 +34,8 @@ namespace OriflameApp
             switch (text)
             {
                 case "Menu"     : mv.NavigationService.Navigate(new Uri( "Start.xaml",   UriKind.Relative));   break;
-                case "Previos"  : if(mv.CanGoBack)    mv.GoBack()   ; break;
-                case "Next"     : if(mv.CanGoForward) mv.GoForward(); break;
+                
+                
             }
         }
     }

@@ -31,3 +31,7 @@ M:\dev\terminalApp\dev\OriflameApp\obj\Debug\Payment.baml
 M:\dev\terminalApp\dev\OriflameApp\obj\Debug\OriflameApp.g.resources
 M:\dev\terminalApp\dev\OriflameApp\obj\Debug\OriflameApp.Properties.Resources.resources
 M:\dev\terminalApp\dev\OriflameApp\obj\Debug\OriflameApp.csproj.GenerateResource.Cache
+M:\dev\terminalApp\dev\OriflameApp\bin\Debug\catalog\134.jpg
+M:\dev\terminalApp\dev\OriflameApp\bin\Debug\catalog\135.jpg
+M:\dev\terminalApp\dev\OriflameApp\bin\Debug\catalog\136.jpg
+M:\dev\terminalApp\dev\OriflameApp\obj\Debug\OriflameApp_Content.g.cs

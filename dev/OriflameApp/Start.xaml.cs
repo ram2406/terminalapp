@@ -36,6 +36,7 @@ namespace OriflameApp
             switch (xaml)
             {
                 case "UserRoom.xaml": this.NavigationService.Navigate(new Payment()) ; break;
+                case "Catalog.xaml": this.NavigationService.Navigate(new Catalog()); break;
             }
         }
     }
