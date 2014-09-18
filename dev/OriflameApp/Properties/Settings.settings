@@ -1,12 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="OriflameApp.Properties" GeneratedClassName="Settings">
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
   <Profiles />
-  <Settings>
-    <Setting Name="PathToDataBase" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">saldat.db</Value>
-    </Setting>
-    <Setting Name="PathToCatalogFolder" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">catalog</Value>
-    </Setting>
-  </Settings>
+  <Settings />
 </SettingsFile>

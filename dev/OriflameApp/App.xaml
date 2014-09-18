@@ -62,7 +62,7 @@
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Grid>
                         <ControlTemplate.Triggers>
-                            <Trigger Property="IsFocused" Value="True">
+                            <Trigger Property="IsPressed" Value="True">
                                 <Setter TargetName="rect" Property="Fill" Value="#94C11E"/>
                                 <Setter TargetName="rect" Property="Stroke" Value="White"/>
                             </Trigger>

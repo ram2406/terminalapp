@@ -33,7 +33,7 @@ namespace Logic.SerialPort
         public PollingBill DelegatePollingBill { get; set; }
 
         // Свойство проверяющее/устанавливающее цикл опроса
-        protected bool CanPollingLoop { get; set; }
+        public bool CanPollingLoop { get; set; }
         // Свойство для установки номера ком порта
         public ushort NumberOfComPort { get; set; }
         // Признак установки соединения с ком портом

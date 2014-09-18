@@ -22,23 +22,5 @@ namespace OriflameApp.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("saldat.db")]
-        public string PathToDataBase {
-            get {
-                return ((string)(this["PathToDataBase"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("catalog")]
-        public string PathToCatalogFolder {
-            get {
-                return ((string)(this["PathToCatalogFolder"]));
-            }
-        }
     }
 }

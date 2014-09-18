@@ -32,5 +32,7 @@
         <Button Grid.Row="2" Grid.Column="1" CommandParameter="NUMPAD2" Content="2" Click="button_Click"/>
         <Button Grid.Row="2" Grid.Column="2" CommandParameter="NUMPAD3" Content="3" Click="button_Click"/>
         <Button Grid.Row="3" Grid.Column="0" CommandParameter="NUMPAD0" Content="0" Click="button_Click"/>
+        <Button Grid.Row="3" Grid.Column="1" CommandParameter="OK" Content="OK" Click="button_Click"/>
+        
     </Grid>
 </UserControl>

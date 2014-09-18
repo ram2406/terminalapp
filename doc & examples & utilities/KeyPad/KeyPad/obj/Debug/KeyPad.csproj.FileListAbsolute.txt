@@ -1,6 +1,7 @@
 M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\bin\Debug\KeyPad.dll.config
 M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\bin\Debug\KeyPad.dll
 M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\bin\Debug\KeyPad.pdb
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\KeyPad.csprojResolveAssemblyReference.cache
 M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\Keypad.baml
 M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\Keypad.g.cs
 M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\VirtualKeyboard.g.cs
@@ -13,4 +14,3 @@ M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\KeyPad.Pro
 M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\KeyPad.csproj.GenerateResource.Cache
 M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\KeyPad.dll
 M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\KeyPad.pdb
-M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\Debug\KeyPad.csprojResolveAssemblyReference.cache

@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 using Logic;
+using System.ComponentModel;
 
 
 namespace OriflameApp
@@ -27,7 +28,26 @@ namespace OriflameApp
         {
             InitializeComponent();
             keyp.PropertyChanged += keyp_PropertyChanged;
+            this.footer.Menu.Click += Menu_Click;
+            this.keyp.OnOkClick += keyp_OnOkClick;
         }
+
+        void keyp_OnOkClick(object sender, EventArgs e)
+        {
+            this.Button_Click_Find(null, null);
+            this.Button_Click_Pay(null, null);
+        }
+
+        void Menu_Click(object sender, RoutedEventArgs e)
+        {
+            if (bgwr != null && bgwr.IsBusy)
+            {
+                this.cc.CanPollingLoop = false;
+                bgwr.CancelAsync();
+            }
+        }
+        
+        
 
         void keyp_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
@@ -36,14 +56,25 @@ namespace OriflameApp
 
         private void Button_Click_Print(object sender, RoutedEventArgs e)
         {
-            RenderTargetBitmap rtb = new RenderTargetBitmap((int)check.ActualWidth, (int)check.ActualHeight, 96, 96, PixelFormats.Pbgra32);
-            rtb.Render(check);
-            System.Drawing.Bitmap btmp = BitmapFromSource(rtb);
+            if (bgwr == null) return;
+            if (bgwr.IsBusy)
+            {
+                cc.CanPollingLoop = false;
+                
+            }
             //btmp.Save("check.bmp", System.Drawing.Imaging.ImageFormat.Bmp);
             Logic.SerialPort.Citizen cn = new Logic.SerialPort.Citizen();
-            cn.Bitmap = btmp;
-            cn.Font = new System.Drawing.Font("Arial", 12);
-            cn.StringToPrint = "test";
+            Logic.Payment p = new Logic.Payment();
+            p.DateTime = DateTime.Now;
+            p.Member = CurrentMember;
+            p.Sum = this.sum;
+            MemberFactory.SaveSum(p);
+
+            cn.Sum = p.Sum.ToString();
+            cn.Id = p.Member.ID.ToString();
+            cn.Name = p.Member.Name.Split(' ')[0];
+            cn.DateTime = p.DateTime.ToString();
+            
             cn.Print();
         }
         public static System.Drawing.Bitmap BitmapFromSource(BitmapSource bitmapsource)
@@ -58,5 +89,58 @@ namespace OriflameApp
             }
             return bitmap;
         }
+
+        private void Button_Click_Find(object sender, RoutedEventArgs e)
+        {
+            this.CurrentMember = MemberFactory.Find(uint.Parse(this.inputValue.Text));
+            //var p = new Logic.Payment{Member = m, Sum = 40, DateTime = DateTime.Now} ;
+            //MemberFactory.SaveSum(p);
+        }
+
+        private void Button_Click_Pay(object sender, RoutedEventArgs x)
+        {
+            bgwr = new BackgroundWorker();
+            bgwr.WorkerSupportsCancellation = true;
+            bgwr.WorkerReportsProgress = true;
+            cc = new Logic.SerialPort.CashCode();
+            bgwr.DoWork += (o, e) =>
+            {
+                cc.NumberOfComPort = (ushort) OriflameApplication.Instance.CashCodeNumberPort;
+                cc.CloseComPort();
+                cc.OpenComPort();
+                ushort sum = 0;
+                cc.DelegatePollingBill = (UInt16 nominal, ref bool canloop) => 
+                {
+                    sum += nominal;
+                    bgwr.ReportProgress(sum);
+                };
+                cc.DelegateProcessMessage = ProcessMessage;
+                cc.Reset();
+                var rubs = Enum.GetValues(typeof(Logic.SerialPort.CashCode.RUB));
+                var lrubs = rubs.OfType<Logic.SerialPort.CashCode.RUB>().ToList();
+                cc.EnableBillTypes(lrubs);
+                var res = cc.PollingLoop(ushort.MaxValue, (uint)OriflameApplication.Instance.CashCodeInterval);
+                cc.Reset();
+                cc.CloseComPort();
+            };
+            bgwr.ProgressChanged += (o, e) =>
+            {
+                this.sum = e.ProgressPercentage;
+                tb_cash.Text = ((double)e.ProgressPercentage).ToString();
+            };
+            
+            bgwr.RunWorkerAsync();
+        }
+
+        
+        void ProcessMessage(uint error, string message)
+        {
+            
+        }
+
+        public Logic.Member CurrentMember { get; set; }
+        private BackgroundWorker bgwr;
+        private Logic.SerialPort.CashCode cc;
+        private decimal sum;
     }
 }

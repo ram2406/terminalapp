@@ -12,17 +12,22 @@ namespace OriflameApp
     {
         private string catalogPath
                      , databasePath;
+        private int cashCodePort
+                  , cashCodeInterval;
         private OriflameApplication()
         {
             this.catalogPath    = ConfigurationManager.AppSettings.Get("PathToCatalogFolder");
             this.databasePath   = ConfigurationManager.AppSettings["PathToDataBase"];
+            this.cashCodePort       = int.Parse( ConfigurationManager.AppSettings["CashCodePortNumber"] ?? "0");
+            this.cashCodeInterval   = int.Parse(ConfigurationManager.AppSettings["CashCodeInterval"] ?? "0");
+            Logic.DataBase.BasePath = this.databasePath;
         }
         static OriflameApplication instance;
         public static OriflameApplication Instance
         {
             get
             {
-                return instance = instance ?? new OriflameApplication();
+                return instance ?? (instance = new OriflameApplication());
             }
         }
         MainNavWindow window;
@@ -39,5 +44,8 @@ namespace OriflameApp
 
         public string DataBase { get { return databasePath; } }
         public string Catalog { get { return catalogPath; } }
+        public int CashCodeNumberPort { get { return cashCodePort; } }
+        public int CashCodeInterval { get { return cashCodeInterval; } }
     }
 }
+

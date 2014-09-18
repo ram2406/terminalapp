@@ -39,13 +39,15 @@ namespace KeyPad
             get { return _result; }
             private set { _result = value; this.OnPropertyChanged("Result"); }
         }
-        
+
+        public event EventHandler OnOkClick;
+
         #endregion
         
         public Keypad()
         {
             InitializeComponent();
-            
+            OnOkClick = new EventHandler((o, e) => { });
             this.DataContext = this;
             Result = "";
         }        
@@ -59,7 +61,7 @@ namespace KeyPad
                     if (Result.Length > 0)
                         Result = Result.Remove(Result.Length - 1);
                     break;
-
+                case "OK": OnOkClick(this, null); break;
                 default:
                     Result += button.Content.ToString();
                     break;

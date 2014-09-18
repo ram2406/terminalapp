@@ -60,8 +60,8 @@
                             </Setter>
                         </Style>
                     </StackPanel.Resources>
-                    <Button   VerticalAlignment="Top" HorizontalAlignment="Left" Content="Найти" Width="300"/>
-                    <Button   VerticalAlignment="Top" HorizontalAlignment="Left" Content="Внести наличные" Width="300"/>
+                    <Button   VerticalAlignment="Top" HorizontalAlignment="Left" Content="Найти" Width="300" Click="Button_Click_Find"/>
+                    <Button   VerticalAlignment="Top" HorizontalAlignment="Left" Content="Внести наличные" Width="300" Click="Button_Click_Pay"/>
                     <Button   VerticalAlignment="Top" HorizontalAlignment="Left" Content="Распечатать чек" Width="300" Click="Button_Click_Print"/>
                 </StackPanel>
                 
@@ -116,7 +116,7 @@
                     <TextBlock Text="Дата и время"          Grid.Row="1" Grid.Column="1" FontWeight="Bold"  FontSize="18"/>
                     <TextBlock Text="ФИО консультанта"      Grid.Row="2" Grid.Column="1" FontWeight="Bold"  FontSize="18"/>
                     <TextBlock Text="Номер консультанта"    Grid.Row="3" Grid.Column="1" FontWeight="Bold"  FontSize="18"/>
-                    <TextBlock Text="Сумма платежа"         Grid.Row="4" Grid.Column="1" FontWeight="Bold"  FontSize="18"/>
+                    <TextBlock Text="Сумма платежа"         Grid.Row="4" Grid.Column="1" FontWeight="Bold"  FontSize="18" Name="tb_cash"/>
                 </Grid>
 
             </StackPanel>
@@ -126,7 +126,7 @@
         
             
         
-        <oa:Footer />
+        <oa:Footer x:Name="footer"/>
         
     </Grid>
 </Page>
