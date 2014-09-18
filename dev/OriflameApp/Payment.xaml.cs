@@ -45,21 +45,27 @@ namespace OriflameApp
 
         void keyp_OnOkClick(object sender, EventArgs e)
         {
-            this.Button_Click_Find(null, null);
-            if (this.CurrentMember == null)
+            try
             {
-                this.tb_id.Text = "не найден";
-                this.tb_name.Text = "не найден";
+                this.Button_Click_Find(null, null);
+                if (this.CurrentMember == null)
+                {
+                    this.tb_id.Text = "не найден";
+                    this.tb_name.Text = "не найден";
+                }
+                else
+                {
+                    this.tb_id.Text = this.CurrentMember.ID.ToString();
+                    this.tb_name.Text = this.CurrentMember.Name.Split()[0];
+                    Canvas.SetZIndex(this.rect_green, 1);
+                    this.footer.Menu.Content = "Завершить";
+                    this.Button_Click_Pay(null, null);
+                }
             }
-            else
+            catch (Exception ex)
             {
-                this.tb_id.Text = this.CurrentMember.ID.ToString();
-                this.tb_name.Text = this.CurrentMember.Name.Split()[0];
-                Canvas.SetZIndex(this.rect_green, 1);
-                this.footer.Menu.Content = "Завершить";
-                this.Button_Click_Pay(null, null);
+                MessageBox.Show(ex.Message);
             }
-            
         }
 
         void Menu_Click(object sender, RoutedEventArgs e)
@@ -122,7 +128,11 @@ namespace OriflameApp
 
         private void Button_Click_Find(object sender, RoutedEventArgs e)
         {
-            this.CurrentMember = MemberFactory.Find(uint.Parse(this.inputValue.Text));
+            uint value = 0;
+            if (uint.TryParse(this.inputValue.Text, out value))
+            {
+                this.CurrentMember = MemberFactory.Find(value);
+            }
             //var p = new Logic.Payment{Member = m, Sum = 40, DateTime = DateTime.Now} ;
             //MemberFactory.SaveSum(p);
         }

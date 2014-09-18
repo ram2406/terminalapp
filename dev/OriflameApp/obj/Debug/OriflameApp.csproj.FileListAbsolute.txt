@@ -38,3 +38,7 @@ M:\dev\terminalApp\dev\OriflameApp\obj\Debug\OriflameApp.Properties.Resources.re
 M:\dev\terminalApp\dev\OriflameApp\obj\Debug\OriflameApp.csproj.GenerateResource.Cache
 M:\dev\terminalApp\dev\OriflameApp\obj\Debug\OriflameApp.exe
 M:\dev\terminalApp\dev\OriflameApp\obj\Debug\OriflameApp.pdb
+M:\dev\terminalApp\dev\OriflameApp\bin\Debug\OriflameApp.exe.manifest
+M:\dev\terminalApp\dev\OriflameApp\bin\Debug\OriflameApp.application
+M:\dev\terminalApp\dev\OriflameApp\obj\Debug\OriflameApp.exe.manifest
+M:\dev\terminalApp\dev\OriflameApp\obj\Debug\OriflameApp.application

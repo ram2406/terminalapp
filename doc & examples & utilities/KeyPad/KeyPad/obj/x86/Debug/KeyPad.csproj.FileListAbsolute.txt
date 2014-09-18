@@ -93,3 +93,6 @@ M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\x86\Debug\KeyPad
 M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\x86\Debug\KeyPad.csproj.GenerateResource.Cache
 M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\x86\Debug\KeyPad.dll
 M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\obj\x86\Debug\KeyPad.pdb
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\bin\x86\Debug\KeyPad.dll.config
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\bin\x86\Debug\KeyPad.dll
+M:\dev\terminalApp\doc & examples & utilities\KeyPad\KeyPad\bin\x86\Debug\KeyPad.pdb
