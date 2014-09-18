@@ -27,24 +27,54 @@ namespace OriflameApp
         public Payment()
         {
             InitializeComponent();
-            keyp.PropertyChanged += keyp_PropertyChanged;
+
+            this.keyp.PropertyChanged += keyp_PropertyChanged;
             this.footer.Menu.Click += Menu_Click;
             this.keyp.OnOkClick += keyp_OnOkClick;
+
+            this.tb_dt.Text = DateTime.Now.ToString();
+            this.tb_id.Text = "-";
+            this.tb_name.Text = "-";
+            this.tb_cash.Text = "-";
+            Canvas.SetZIndex(this.rect_green, 0);
+
+            this.CurrentMember = null;
+            this.sum = 0;
+            this.bgwr = null;
         }
 
         void keyp_OnOkClick(object sender, EventArgs e)
         {
             this.Button_Click_Find(null, null);
-            this.Button_Click_Pay(null, null);
+            if (this.CurrentMember == null)
+            {
+                this.tb_id.Text = "не найден";
+                this.tb_name.Text = "не найден";
+            }
+            else
+            {
+                this.tb_id.Text = this.CurrentMember.ID.ToString();
+                this.tb_name.Text = this.CurrentMember.Name.Split()[0];
+                Canvas.SetZIndex(this.rect_green, 1);
+                this.footer.Menu.Content = "Завершить";
+                this.Button_Click_Pay(null, null);
+            }
+            
         }
 
         void Menu_Click(object sender, RoutedEventArgs e)
         {
+            
+            if (this.CurrentMember != null && this.sum > 0)
+            {
+                this.Button_Click_Print(null, null);
+            }
             if (bgwr != null && bgwr.IsBusy)
             {
                 this.cc.CanPollingLoop = false;
                 bgwr.CancelAsync();
             }
+            this.footer.Menu.Content = "Меню";
         }
         
         
@@ -111,6 +141,7 @@ namespace OriflameApp
                 ushort sum = 0;
                 cc.DelegatePollingBill = (UInt16 nominal, ref bool canloop) => 
                 {
+                    File.AppendAllText(OriflameApplication.Instance.PaymentLog, string.Format("{0}\t{1}\t{2}\t{3}\t"+Environment.NewLine, DateTime.Now.ToString(), this.CurrentMember.ID, this.CurrentMember.Name, nominal.ToString()));
                     sum += nominal;
                     bgwr.ReportProgress(sum);
                 };

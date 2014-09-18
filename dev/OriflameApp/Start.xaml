@@ -17,7 +17,7 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            <Button Content="Личный Кабинет" Tag="UserRoom.xaml" Click="Button_Click"/>
+            <Button Content="Забрать заказ" Tag="UserRoom.xaml" Click="Button_Click"/>
             <Grid Name="GridButtonsSecondary"  Grid.Row="1" >
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>

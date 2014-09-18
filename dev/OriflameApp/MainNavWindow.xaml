@@ -3,8 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" MinHeight="1024" MinWidth="1280"
         Source="Start.xaml" ShowsNavigationUI="False"
-        WindowStyle="ToolWindow" ResizeMode="NoResize"  
-        WindowStartupLocation="CenterScreen" WindowState="Minimized"
+        WindowStyle="None" ResizeMode="NoResize"  
+        WindowStartupLocation="CenterScreen" WindowState="Maximized"
                 Background="#94C11E" 
                   >
    

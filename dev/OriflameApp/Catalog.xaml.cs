@@ -51,6 +51,7 @@ namespace OriflameApp
 
         public void ShowImage(string path)
         {
+            if (path == null) return;
             Image myImage = this.image;
             
 
@@ -61,14 +62,6 @@ namespace OriflameApp
             myBitmapImage.BeginInit();
             myBitmapImage.UriSource = new Uri(path);
 
-            // To save significant application memory, set the DecodePixelWidth or   
-            // DecodePixelHeight of the BitmapImage value of the image source to the desired  
-            // height or width of the rendered image. If you don't do this, the application will  
-            // cache the image as though it were rendered as its normal size rather then just  
-            // the size that is displayed. 
-            // Note: In order to preserve aspect ratio, set DecodePixelWidth 
-            // or DecodePixelHeight but not both.
-            
             myBitmapImage.EndInit();
             //set image source
             myImage.Source = myBitmapImage;
@@ -84,9 +77,21 @@ namespace OriflameApp
             }
             string[] paths;
             int current;
-            public string GetCurrent() { return System.IO.Path.Combine(  Directory.GetCurrentDirectory() , paths[current] ); }
-            public string GetNext() { return System.IO.Path.Combine(Directory.GetCurrentDirectory(), paths[ current < paths.Length-1 ? ++current : paths.Length-1]); }
-            public string GetPrev() { return System.IO.Path.Combine(Directory.GetCurrentDirectory(), paths[ current >0 ? --current:0]); }
+            public string GetCurrent() 
+            {
+                if (paths.Length == 0) return null;
+                return System.IO.Path.Combine(  Directory.GetCurrentDirectory() , paths[current] );
+            }
+            public string GetNext() 
+            {
+                if (paths.Length == 0) return null;
+                return System.IO.Path.Combine(Directory.GetCurrentDirectory(), paths[ current < paths.Length-1 ? ++current : paths.Length-1]); 
+            }
+            public string GetPrev() 
+            {
+                if (paths.Length == 0) return null;
+                return System.IO.Path.Combine(Directory.GetCurrentDirectory(), paths[ current >0 ? --current:0]); 
+            }
         }
 
     }

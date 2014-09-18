@@ -12,12 +12,13 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Rectangle HorizontalAlignment="Left" Height="624" VerticalAlignment="Top" Width="462" Margin="0,200,0,0" Fill="#C9E08E"/>
+
+        <Rectangle HorizontalAlignment="Left" Height="624" VerticalAlignment="Top" Width="462" Margin="0,200,0,0" Fill="#94C11E" Panel.ZIndex="0" Opacity="0.5" Name="rect_green"/>
         <oa:Header/>
         <Grid Height="500" Margin="36,0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="200"/>
+                
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="410"/>
@@ -37,46 +38,7 @@
             </StackPanel>
            
             
-            <Grid Grid.Column="1" Grid.RowSpan="2" Margin="36,0,0,10">
-                <StackPanel>
-                    <StackPanel.Resources>
-                        <Style BasedOn="{StaticResource GreenButton}" TargetType="Button">
-                            <Setter Property="Template">
-                                <Setter.Value>
-                                    <ControlTemplate TargetType="{x:Type Button}">
-                                        <Grid>
-                                            <Rectangle Name="rect" Fill="#C9E08E" Margin="0" Stroke="#94C11E" RadiusX="20" RadiusY="20" StrokeThickness="6"/>
-                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                        </Grid>
-                                        <ControlTemplate.Triggers>
-                                            <Trigger Property="IsFocused" Value="True">
-                                                <Setter TargetName="rect" Property="Fill" Value="#94C11E"/>
-                                                <Setter TargetName="rect" Property="Stroke" Value="White"/>
-                                            </Trigger>
-
-                                        </ControlTemplate.Triggers>
-                                    </ControlTemplate>
-                                </Setter.Value>
-                            </Setter>
-                        </Style>
-                    </StackPanel.Resources>
-                    <Button   VerticalAlignment="Top" HorizontalAlignment="Left" Content="Найти" Width="300" Click="Button_Click_Find"/>
-                    <Button   VerticalAlignment="Top" HorizontalAlignment="Left" Content="Внести наличные" Width="300" Click="Button_Click_Pay"/>
-                    <Button   VerticalAlignment="Top" HorizontalAlignment="Left" Content="Распечатать чек" Width="300" Click="Button_Click_Print"/>
-                </StackPanel>
-                
-            </Grid>
-            <StackPanel Grid.Column="1"  Grid.Row="1"   Margin="36,36,36,10">
-            <TextBlock  Text="Небольшая инструкция:" FontWeight="Bold" FontSize="16"/>
-            <TextBlock   FontSize="16">
-                1) Введите свой уникальный номер <LineBreak/>
-                2) Нажмите кнопку "Найти" <LineBreak/>
-                3) Проверьте личную информацию <LineBreak/>
-                4) Нажмите кнопку "Оплатить" <LineBreak/>
-                5) Внесите купюры <LineBreak/>
-                6) Нажмите кнопку "Распечатать Чек"
-            </TextBlock>
-            </StackPanel>
+           
             
             
             
@@ -85,8 +47,8 @@
                 
                 <Grid  Height="200" Width="300" Name="check">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
+                        <ColumnDefinition Width="8*"/>
+                        <ColumnDefinition Width="17*"/>
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="40"/>
@@ -98,7 +60,7 @@
                         
                     </Grid.RowDefinitions>
 
-                    <TextBlock Text="Oriflame"         Grid.Row="0" Grid.Column="0" FontWeight="Bold" FontSize="20"/>
+                    <TextBlock Text="Oriflame"         Grid.Row="0" Grid.Column="1" FontWeight="Bold" FontSize="20" TextAlignment="Right"/>
 
                     <Line  X1="0" X2="300" Y1="0" Y2="0" StrokeThickness="2" Stroke="Black" StrokeDashArray="2" Grid.Row="0" Grid.ColumnSpan="2"/>
                     <Line  X1="0" X2="300" Y1="0" Y2="0" StrokeThickness="2" Stroke="Black" StrokeDashArray="2" Grid.Row="1" Grid.ColumnSpan="2"/>
@@ -109,16 +71,16 @@
 
                    
                     <TextBlock Text="Дата и время"          Grid.Row="1" Grid.Column="0" />
-                    <TextBlock Text="ФИО консультанта"      Grid.Row="2" Grid.Column="0" />
-                    <TextBlock Text="Номер консультанта"    Grid.Row="3" Grid.Column="0" />
+                    <TextBlock Text="ФИО "      Grid.Row="2" Grid.Column="0" />
+                    <TextBlock Text="Номер"    Grid.Row="3" Grid.Column="0" />
                     <TextBlock Text="Сумма платежа"         Grid.Row="4" Grid.Column="0" />
 
-                    <TextBlock Text="Дата и время"          Grid.Row="1" Grid.Column="1" FontWeight="Bold"  FontSize="18"/>
-                    <TextBlock Text="ФИО консультанта"      Grid.Row="2" Grid.Column="1" FontWeight="Bold"  FontSize="18"/>
-                    <TextBlock Text="Номер консультанта"    Grid.Row="3" Grid.Column="1" FontWeight="Bold"  FontSize="18"/>
-                    <TextBlock Text="Сумма платежа"         Grid.Row="4" Grid.Column="1" FontWeight="Bold"  FontSize="18" Name="tb_cash"/>
+                    <TextBlock Text="Дата и время"          Grid.Row="1" Grid.Column="1" FontWeight="Bold"  FontSize="18" TextAlignment="Right" Name="tb_dt"/>
+                    <TextBlock Text="ФИО консультанта"      Grid.Row="2" Grid.Column="1" FontWeight="Bold"  FontSize="18" TextAlignment="Right" Name="tb_name"/>
+                    <TextBlock Text="Номер консультанта"    Grid.Row="3" Grid.Column="1" FontWeight="Bold"  FontSize="18" TextAlignment="Right" Name="tb_id"/>
+                    <TextBlock Text="Сумма платежа"         Grid.Row="4" Grid.Column="1" FontWeight="Bold"  FontSize="18" TextAlignment="Right" Name="tb_cash"/>
                 </Grid>
-
+               <!-- <Button   VerticalAlignment="Bottom" HorizontalAlignment="Left" Content="Распечатать чек" Width="300" Click="Button_Click_Print" Margin="6,60,0,6"/>-->
             </StackPanel>
             
             

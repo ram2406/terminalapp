@@ -11,13 +11,15 @@ namespace OriflameApp
     internal class OriflameApplication
     {
         private string catalogPath
-                     , databasePath;
+                     , databasePath
+                     , paymentLogPath;
         private int cashCodePort
                   , cashCodeInterval;
         private OriflameApplication()
         {
             this.catalogPath    = ConfigurationManager.AppSettings.Get("PathToCatalogFolder");
             this.databasePath   = ConfigurationManager.AppSettings["PathToDataBase"];
+            this.paymentLogPath = ConfigurationManager.AppSettings["PathToPaymentLog"];
             this.cashCodePort       = int.Parse( ConfigurationManager.AppSettings["CashCodePortNumber"] ?? "0");
             this.cashCodeInterval   = int.Parse(ConfigurationManager.AppSettings["CashCodeInterval"] ?? "0");
             Logic.DataBase.BasePath = this.databasePath;
@@ -44,6 +46,7 @@ namespace OriflameApp
 
         public string DataBase { get { return databasePath; } }
         public string Catalog { get { return catalogPath; } }
+        public string PaymentLog { get { return paymentLogPath; } }
         public int CashCodeNumberPort { get { return cashCodePort; } }
         public int CashCodeInterval { get { return cashCodeInterval; } }
     }
