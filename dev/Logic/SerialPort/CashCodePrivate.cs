@@ -438,7 +438,7 @@ namespace Logic.SerialPort
                                 UInt16 BillNominal = 0;
                                 switch (secondByte)
                                 {
-
+                                    case 2: BillNominal = 10; break;
                                     case 3: BillNominal = 50; break;
                                     case 4: BillNominal = 100; break;
                                     case 5: BillNominal = 500; break;

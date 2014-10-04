@@ -93,6 +93,7 @@ namespace Logic.SerialPort
             //ReadFile();
 
             printDocument1.PrinterSettings.PrinterName = "CITIZEN CT-S2000";
+            printDocument1.PrintController = new StandardPrintController();
             printDocument1.Print();
         }
     }
