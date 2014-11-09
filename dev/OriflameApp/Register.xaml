@@ -1,0 +1,18 @@
+﻿<Page x:Class="OriflameApp.Register"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:oa="clr-namespace:OriflameApp"
+      xmlns:kp="clr-namespace:KeyPad;assembly=KeyPad"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="Register">
+
+    <Grid>
+        <oa:Header/>
+
+        <kp:VirtualKeyboard Name="virt" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+        <oa:Footer x:Name="ft"/>
+    </Grid>
+</Page>

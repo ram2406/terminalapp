@@ -52,6 +52,8 @@ namespace OriflameApp
                 {
                     this.tb_id.Text = "не найден";
                     this.tb_name.Text = "не найден";
+                    var mv = OriflameApplication.Instance.MainNavWindow;
+                    mv.NavigationService.Navigate(new Uri("Register.xaml", UriKind.Relative));
                 }
                 else
                 {

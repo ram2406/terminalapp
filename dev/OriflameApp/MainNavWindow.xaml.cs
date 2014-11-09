@@ -34,9 +34,14 @@ namespace OriflameApp
         void MainNavWindow_Loaded(object sender, RoutedEventArgs e)
         {
             OriflameApplication.Instance.MainNavWindow = this;
-            this.Cursor = Cursors.None;
+            ShowCursor();
+            
         }
-
+        [Conditional("DEBUG")]
+        void ShowCursor()
+        {
+            this.Cursor = Cursors.Cross;
+        }
         
        
     }
