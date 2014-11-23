@@ -6,13 +6,45 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       mc:Ignorable="d" 
-      d:DesignHeight="300" d:DesignWidth="300"
+      d:DesignHeight="1024" d:DesignWidth="1280"
 	Title="Register">
 
-    <Grid>
+    <Grid Background="White">
         <oa:Header/>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,200,0,475">
+            <Grid HorizontalAlignment="Center" VerticalAlignment="Top" Height="90" Width="800" >
 
-        <kp:VirtualKeyboard Name="virt" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+                <Rectangle RadiusX="20" RadiusY="20" Margin="6"
+                           Stroke="Black" StrokeThickness="6" 
+                           Fill="White"/>
+                <TextBlock Text="Введите свой номер..." FontSize="24" VerticalAlignment="Center" Margin="20"   HorizontalAlignment="Left" Name="inputNumber" />
+            </Grid>
+            <Grid HorizontalAlignment="Center" VerticalAlignment="Top" Height="90" Width="800" >
+
+                <Rectangle RadiusX="20" RadiusY="20" Margin="6"
+                           Stroke="Black" StrokeThickness="6" 
+                           Fill="White"/>
+                <TextBlock Text="Введите свой номер..." FontSize="24" VerticalAlignment="Center" Margin="20"   HorizontalAlignment="Left" Name="inputLastName" />
+            </Grid>
+            <DockPanel>
+                <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Height="90" Width="400" >
+
+                    <Rectangle RadiusX="20" RadiusY="20" Margin="6"
+                           Stroke="Black" StrokeThickness="6" 
+                           Fill="White"/>
+                    <TextBlock Text="Введите свой номер..." FontSize="24" VerticalAlignment="Center" Margin="20"   HorizontalAlignment="Left" Name="inputFirstName" />
+                </Grid>
+                <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Height="90" Width="400" >
+
+                    <Rectangle RadiusX="20" RadiusY="20" Margin="6"
+                           Stroke="Black" StrokeThickness="6" 
+                           Fill="White"/>
+                    <TextBlock Text="Введите свой номер..." FontSize="24" VerticalAlignment="Center" Margin="20"   HorizontalAlignment="Left" Name="inputValue" />
+                </Grid>
+            </DockPanel>
+
+        </StackPanel>
+        <kp:VirtualKeyboard2 Background="#8094C11E" Name="virt" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,200" Width="1980" />
         <oa:Footer x:Name="ft"/>
     </Grid>
 </Page>

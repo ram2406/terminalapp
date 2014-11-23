@@ -1,0 +1,121 @@
+﻿<UserControl x:Class="KeyPad.VirtualKeyboard2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="250" d:DesignWidth="1024">
+    <Grid>
+        <Grid.Resources>
+            <Style  BasedOn="{StaticResource GreenButton}"  TargetType="{x:Type Button}">
+                <Setter Property="Width" Value="75"/>
+                <Setter Property="Margin" Value="5"/>
+                <Setter Property="Height" Value="70"/>
+                <EventSetter Event="Click" Handler="Button_Click" />
+            </Style>
+        </Grid.Resources>
+        <StackPanel VerticalAlignment="Center" Visibility="Collapsed" Name="k_ABC">
+            <DockPanel HorizontalAlignment="Center">
+                <Button Content="Й"/>
+                <Button Content="Ц"/>
+                <Button Content="У"/>
+                <Button Content="К"/>
+
+                <Button Content="Е"/>
+                <Button Content="Н"/>
+                <Button Content="Г"/>
+                <Button Content="Ш"/>
+
+                <Button Content="Ш"/>
+                <Button Content="З"/>
+                <Button Content="Х"/>
+                <Button Content="Ъ"/>
+            </DockPanel>
+
+            <DockPanel HorizontalAlignment="Center">
+                <Button Content="Ф"/>
+                <Button Content="Ы"/>
+                <Button Content="В"/>
+                <Button Content="А"/>
+                
+                <Button Content="П"/>
+                <Button Content="Р"/>
+                <Button Content="О"/>
+                <Button Content="Л"/>
+
+                <Button Content="Д"/>
+                <Button Content="Ж"/>
+                <Button Content="Э"/>
+                
+            </DockPanel>
+          
+            <DockPanel HorizontalAlignment="Center">
+                <Button Content="123?" Width="105"/>
+                <Button Content="Я"/>
+                <Button Content="Ч"/>
+                <Button Content="С"/>
+                <Button Content="М"/>
+
+                <Button Content="И"/>
+                <Button Content="Т"/>
+                <Button Content="Ь"/>
+                <Button Content="Б"/>
+
+                <Button Content="Ю"/>
+                <Button  Width="105"  Click="Button_Click_BACK">
+                    <Path Stretch="Fill" Width="36" Height="24" 
+                      Data="F1M555.0371,274.4893L552.7871,276.7383L549.9861,273.9373L547.1991,276.7243L545.1131,274.6393L547.9001,271.8523L545.0101,268.9603L547.2601,266.7113L550.1501,269.6023L552.8921,266.8613L554.9761,268.9463L552.2361,271.6883z M555.3751,264.0003L544.8751,264.0003C543.1251,264.1253,535.0001,270.7503,535.0001,272.2503C535.0001,273.7503,543.1251,279.3753,544.8751,279.5003L555.3751,279.5003C558.8751,279.5003,559.3751,277.7093,559.3751,275.5003L559.3751,268.0003C559.3751,265.7913,558.7501,264.0003,555.3751,264.0003" 
+                      />
+                </Button>
+            </DockPanel>
+        </StackPanel>
+        <StackPanel Panel.ZIndex="1" VerticalAlignment="Center" Name="k_123">
+            <DockPanel HorizontalAlignment="Center">
+                <Button Content="1"/>
+                <Button Content="2"/>
+                <Button Content="3"/>
+                <Button Content="4"/>
+
+                <Button Content="5"/>
+                <Button Content="6"/>
+                <Button Content="7"/>
+                <Button Content="8"/>
+
+                <Button Content="9"/>
+                <Button Content="0"/>
+            </DockPanel>
+
+            <DockPanel HorizontalAlignment="Center">
+                
+                <Button Content="-"/>
+                <Button Content="+"/>
+                <Button Content="@"/>
+                <Button Content=":"/>
+
+                <Button Content=";"/>
+                <Button Content="("/>
+                <Button Content=")"/>
+                <Button Content="!"/>
+
+                <Button Content="?"/>
+                
+                
+
+            </DockPanel>
+
+            <DockPanel HorizontalAlignment="Center">
+                <Button Content="ABC" Width="105"/>
+                <Button Content="."/>
+                <Button Content=" " Width="310"/>
+               
+
+                <Button Content=","/>
+                <Button  Width="105" Click="Button_Click_BACK">
+                    <Path Stretch="Fill" Width="36" Height="24" 
+                      Data="F1M555.0371,274.4893L552.7871,276.7383L549.9861,273.9373L547.1991,276.7243L545.1131,274.6393L547.9001,271.8523L545.0101,268.9603L547.2601,266.7113L550.1501,269.6023L552.8921,266.8613L554.9761,268.9463L552.2361,271.6883z M555.3751,264.0003L544.8751,264.0003C543.1251,264.1253,535.0001,270.7503,535.0001,272.2503C535.0001,273.7503,543.1251,279.3753,544.8751,279.5003L555.3751,279.5003C558.8751,279.5003,559.3751,277.7093,559.3751,275.5003L559.3751,268.0003C559.3751,265.7913,558.7501,264.0003,555.3751,264.0003" 
+                      />
+                </Button>
+            </DockPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

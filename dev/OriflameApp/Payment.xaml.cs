@@ -106,6 +106,7 @@ namespace OriflameApp
             p.DateTime = DateTime.Now;
             p.Member = CurrentMember;
             p.Sum = this.sum;
+            File.AppendAllText(OriflameApplication.Instance.PaymentLog, string.Format("\t{0}\t{1}\t{2}\t{3}\t" + Environment.NewLine, p.DateTime, this.CurrentMember.ID, this.CurrentMember.Name, p.Sum));
             MemberFactory.SaveSum(p);
 
             cn.Sum = p.Sum.ToString();
