@@ -39,7 +39,7 @@ namespace KeyPad
     /// <summary>
     /// Logica di interazione per VirtualKeyboard.xaml
     /// </summary>
-    public partial class VirtualKeyboard : Window, INotifyPropertyChanged
+    public partial class VirtualKeyboard : UserControl, INotifyPropertyChanged
     {
         #region Public Properties
 
@@ -61,10 +61,9 @@ namespace KeyPad
 
         #region Constructor
 
-        public VirtualKeyboard(TextBox owner, Window wndOwner)
+        public VirtualKeyboard()
         {
             InitializeComponent();
-            this.Owner = wndOwner;
             this.DataContext = this;
             Result = "";
         }
@@ -113,7 +112,6 @@ namespace KeyPad
                         break;
 
                     case "RETURN":
-                        this.DialogResult = true;
                         break;
 
                     case "BACK":

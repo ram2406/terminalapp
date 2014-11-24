@@ -26,6 +26,7 @@ namespace KeyPad
             private set { this.result = value; this.ResultChanged(this, new EventArgs()); } 
         }
         public event EventHandler ResultChanged;
+        public void ResetResult(String text) { this.result = text; }
 
         public VirtualKeyboard2()
         {
@@ -87,7 +88,7 @@ namespace KeyPad
         {
             var len = this.Result.Length;
             if (len < 1) return;
-            this.Result = this.Result.Substring(0, len - 2);
+            this.Result = this.Result.Substring(0, len - 1);
             e.Handled = true;
         }
     }

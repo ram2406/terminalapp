@@ -12,34 +12,33 @@
     <Grid Background="White">
         <oa:Header/>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,200,0,475">
-            <Grid HorizontalAlignment="Center" VerticalAlignment="Top" Height="90" Width="800" >
-
+            <Grid HorizontalAlignment="Center" VerticalAlignment="Top" Height="90" Width="800" Name="grid_number" MouseDown="grid_MouseDown">
                 <Rectangle RadiusX="20" RadiusY="20" Margin="6"
                            Stroke="Black" StrokeThickness="6" 
                            Fill="White"/>
                 <TextBlock Text="Введите свой номер..." FontSize="24" VerticalAlignment="Center" Margin="20"   HorizontalAlignment="Left" Name="inputNumber" />
             </Grid>
-            <Grid HorizontalAlignment="Center" VerticalAlignment="Top" Height="90" Width="800" >
+            <Grid HorizontalAlignment="Center" VerticalAlignment="Top" Height="90" Width="800" Name="grid_last_name" MouseDown="grid_MouseDown">
 
                 <Rectangle RadiusX="20" RadiusY="20" Margin="6"
                            Stroke="Black" StrokeThickness="6" 
                            Fill="White"/>
-                <TextBlock Text="Введите свой номер..." FontSize="24" VerticalAlignment="Center" Margin="20"   HorizontalAlignment="Left" Name="inputLastName" />
+                <TextBlock Text="Введите свою фамилию..." FontSize="24" VerticalAlignment="Center" Margin="20"   HorizontalAlignment="Left" Name="inputLastName" />
             </Grid>
             <DockPanel>
-                <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Height="90" Width="400" >
+                <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Height="90" Width="400" Name="grid_first_name" MouseDown="grid_MouseDown">
 
                     <Rectangle RadiusX="20" RadiusY="20" Margin="6"
                            Stroke="Black" StrokeThickness="6" 
                            Fill="White"/>
-                    <TextBlock Text="Введите свой номер..." FontSize="24" VerticalAlignment="Center" Margin="20"   HorizontalAlignment="Left" Name="inputFirstName" />
+                    <TextBlock Text="Введите свое имя..." FontSize="24" VerticalAlignment="Center" Margin="20"   HorizontalAlignment="Left" Name="inputFirstName" />
                 </Grid>
-                <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Height="90" Width="400" >
+                <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Height="90" Width="400" Name="grid_patronymic" MouseDown="grid_MouseDown">
 
                     <Rectangle RadiusX="20" RadiusY="20" Margin="6"
                            Stroke="Black" StrokeThickness="6" 
                            Fill="White"/>
-                    <TextBlock Text="Введите свой номер..." FontSize="24" VerticalAlignment="Center" Margin="20"   HorizontalAlignment="Left" Name="inputValue" />
+                    <TextBlock Text="Введите свое отчество..." FontSize="24" VerticalAlignment="Center" Margin="20"   HorizontalAlignment="Left" Name="inputValue" />
                 </Grid>
             </DockPanel>
 
