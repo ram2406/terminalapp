@@ -47,7 +47,11 @@ namespace Logic
 
     public class MemberFactory
     {
-        
+        public static Member Create(uint id, string name)
+        {
+            DataBase.Instance.Exec(string.Format("insert into members (id, name, address, phone, city) values ({0}, \"{1}\", \"\", \"\", \"\")", id, name));
+            return Find(id);
+        }
 
         public static Member Find(uint id)
         {

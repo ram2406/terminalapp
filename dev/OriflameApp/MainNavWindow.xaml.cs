@@ -41,6 +41,11 @@ namespace OriflameApp
         void ShowCursor()
         {
             this.Cursor = Cursors.Cross;
+            this.WindowStyle = System.Windows.WindowStyle.SingleBorderWindow;
+            this.ResizeMode = System.Windows.ResizeMode.CanResize;
+            this.WindowState = System.Windows.WindowState.Normal;
+            this.Height = 1024;
+            this.Width = 1280;
         }
         
        

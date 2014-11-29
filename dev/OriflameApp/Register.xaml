@@ -38,12 +38,27 @@
                     <Rectangle RadiusX="20" RadiusY="20" Margin="6"
                            Stroke="Black" StrokeThickness="6" 
                            Fill="White"/>
-                    <TextBlock Text="Введите свое отчество..." FontSize="24" VerticalAlignment="Center" Margin="20"   HorizontalAlignment="Left" Name="inputValue" />
+                    <TextBlock Text="Введите свое отчество..." FontSize="24" VerticalAlignment="Center" Margin="20"   HorizontalAlignment="Left" Name="inputPName" />
                 </Grid>
             </DockPanel>
 
         </StackPanel>
+        
+           
+        
+        
         <kp:VirtualKeyboard2 Background="#8094C11E" Name="virt" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,200" Width="1980" />
         <oa:Footer x:Name="ft"/>
+        <Popup Name="popup" StaysOpen="True" Placement="Center" PopupAnimation="Slide" AllowsTransparency="True" MouseDown="popup_MouseDown" Height="1024" Width="1280">
+            <Grid Background="#F094C11E">
+                <StackPanel VerticalAlignment="Center">
+                <TextBlock Height="200" Name="popup_textblock" Foreground="White" FontSize="24" FontFamily="Comic" FontWeight="Bold" TextAlignment="Center"/>
+                
+                    <Button Content="Меню" Click="Button_Click_Menu" Width="160"   />
+                </StackPanel>
+
+            </Grid>
+        </Popup>
     </Grid>
+    
 </Page>

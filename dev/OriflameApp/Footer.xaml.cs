@@ -26,16 +26,22 @@ namespace OriflameApp
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            if (e.Handled) return;
             Button b    = sender as Button;
             if (b == null)                  return;
             string text =  b.Tag as string;
             if(string.IsNullOrEmpty(text))  return;
+            MoveTo(text);
+        }
+
+        public static void MoveTo(string text)
+        {
             var mv = OriflameApplication.Instance.MainNavWindow;
             switch (text)
             {
-                case "Menu"     : mv.NavigationService.Navigate(new Uri( "Start.xaml",   UriKind.Relative));   break;
-                
-                
+                case "Menu": mv.NavigationService.Navigate(new Uri("Start.xaml", UriKind.Relative)); break;
+
+
             }
         }
     }
